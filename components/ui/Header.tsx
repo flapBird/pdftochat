@@ -15,12 +15,12 @@ export default async function Header() {
             className="hover:text-slate-600 cursor-pointer flex items-center"
           >
             <Logo />
-            <span className="text-2xl mb-2 font-medium">PDFtoChat</span>
+            <span className="text-2xl mb-2 font-medium">ChatPDF</span>
           </Link>
           <div className="flex items-center gap-5">
             {isLoggedIn ? (
               <>
-                <Link href="/dashboard">Dashboard</Link>
+                {/*<Link href="/dashboard">Dashboard</Link>*/}
                 <UserButton afterSignOutUrl="/" />
               </>
             ) : (

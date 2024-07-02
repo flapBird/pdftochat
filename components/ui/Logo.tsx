@@ -18,11 +18,6 @@ const Logo = ({ isMobile }: LogoProps) => {
             className="sm:w-[30px] w-[21px] h-[25px] sm:h-[30px] mt-1"
           />
         </div>
-        {!isMobile ? (
-          <h1 className="shadows  text-primary text-[32px] sm:text-[35px]">
-            PDFtoChat
-          </h1>
-        ) : null}
       </div>
     </Link>
   );
