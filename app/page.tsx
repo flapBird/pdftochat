@@ -6,6 +6,7 @@ import ProudlyOpenSource from '@/components/home/ProudlyOpenSource';
 import { currentUser } from '@clerk/nextjs';
 import { User } from '@clerk/nextjs/server';
 import { redirect } from 'next/navigation';
+import Pricing from "@/components/home/Pricing";
 
 export default async function Home() {
   const user: User | null = await currentUser();
@@ -19,7 +20,8 @@ export default async function Home() {
       <Header />
       <Hero />
       <HowItWorks />
-      <ProudlyOpenSource />
+      {/*<ProudlyOpenSource />*/}
+      <Pricing />
       <Footer />
     </main>
   );
