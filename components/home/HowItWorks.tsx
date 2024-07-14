@@ -21,9 +21,8 @@ const data = [
 
 const HowItWorks = () => {
   return (
-    <div
-      id="how-it-works"
-      className="xl:max-w-[1700px] xl:mx-auto container pt-9 sm:pt-[77px] pb-[100px] sm:pb-[264px] px-[30px] sm:px-0"
+    <div id="how-it-works"
+      className="w-full xl:mx-auto container pt-9 sm:pt-[77px] pb-[100px] sm:pb-[264px] px-[30px] sm:px-0 bg-gray-50"
     >
       <h3 className="pb-[66px] sm:pb-[174px] text-center text-3xl sm:text-[60px] text_bg leading-[72px] tracking-[-0.6px] sm:tracking-[-1.2px]">
         How it Works

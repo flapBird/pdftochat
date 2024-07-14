@@ -3,9 +3,9 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-gray-100 dark:bg-gray-900 py-16">
+    <footer className="w-full bg-white dark:bg-white py-16">
       <div className="md:px-12 lg:px-28">
-        <div className="container m-auto space-y-6 text-gray-600 dark:text-gray-300">
+        <div className="container m-auto space-y-6 text-GRAY-600 dark:text-white">
           <img src="images/logo.svg" alt="logo tailus" className="m-auto w-40" />
           <ul
             role="list"
